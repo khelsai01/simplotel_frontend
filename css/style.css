@@ -48,7 +48,6 @@ Navbar css Codes
   font-weight: 700;
   color: black;
   transition: all 0.3s;
-  
 }
 
 .navbar-link:hover,
@@ -184,7 +183,6 @@ Hero section css Codes
     rgb(255, 186, 186) 100%
   );
   padding: 10rem 10rem;
- 
 }
 .hero-image-flex {
   flex: 1;
@@ -277,34 +275,32 @@ Responsive Codes
 
 /* 980px */
 
-@media (max-width: 64rem){
-  body{
+@media (max-width: 64rem) {
+  body {
     background: rgb(255, 240, 162);
-  background: linear-gradient(
-    90deg,
-    hsl(41, 100%, 83%) 50%,
-    rgb(255, 186, 186) 100%
-    
-  );
+    background: linear-gradient(
+      90deg,
+      hsl(41, 100%, 83%) 50%,
+      rgb(255, 186, 186) 100%
+    );
   }
   .navbar-link:link,
-  .navbar-link:visited{
+  .navbar-link:visited {
     font-size: 2.5rem;
-letter-spacing:0.3rem;
+    letter-spacing: 0.3rem;
   }
 
-  .hero-2{
+  .hero-2 {
     height: 100vh;
     flex-direction: column;
   }
-  .hero-image-flex{
-    width: 100%;
-
-  }
-  .content-div{
+  .hero-image-flex {
     width: 100%;
   }
-  .content-div h1{
+  .content-div {
+    width: 100%;
+  }
+  .content-div h1 {
     font-size: 3.5rem;
   }
 }
@@ -371,10 +367,9 @@ letter-spacing:0.3rem;
     display: none;
   }
 
-
   /* ===========================================
-Hero Css Codes 
-======================================= */
+    Hero Css Codes 
+  ======================================= */
 
   .hero {
     flex-direction: column;
@@ -390,9 +385,8 @@ Hero Css Codes
   }
 }
 
-@media (max-width:44rem) {
+@media (max-width: 44rem) {
   .hero-image-flex {
-    
     flex-direction: column;
   }
   .hero-image-inner {
@@ -402,13 +396,33 @@ Hero Css Codes
   .item3 {
     width: 100%;
   }
-  .content-div{
+  .content-div {
     width: 100%;
   }
-  .content-div h1{
+  .content-div h1 {
     width: 100%;
-    
   }
-  
 }
 
+/* ===========================================
+      Scroller Css Codes 
+======================================= */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #958e8e;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
