@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +8,6 @@
 
 html {
   font-size: 62.5%;
-
 }
 
 body {
@@ -22,7 +23,13 @@ Navbar css Codes
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(253, 154, 154);
+  background: rgb(199, 96, 96);
+  background: linear-gradient(
+    90deg,
+    rgb(239, 116, 116) 15%,
+    rgb(248, 113, 113) 53%,
+    rgb(249, 103, 103) 100%
+  );
 }
 
 .navbar-list {
@@ -48,6 +55,16 @@ Navbar css Codes
   scale: 1.05;
 }
 
+.logo {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+.logo-icon {
+  width: 4rem;
+  height: 4rem;
+  color: rgb(77, 76, 76);
+}
 .mobile-navbar-btn {
   display: none;
   background: transparent;
@@ -70,23 +87,29 @@ Responsive Codes
 /* 980px */
 
 @media (max-width: 62rem) {
+  .logo {
+    display: block;
+  }
   .mobile-navbar-btn {
     display: block;
     z-index: 999;
-
   }
 
   .header {
     position: relative;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
-   
   }
 
   .navbar {
     width: 100%;
     height: 60vh;
-    background-color: rgb(255, 210, 210);
+    background: rgb(254, 200, 200);
+    background: linear-gradient(
+      135deg,
+      hsl(0, 100%, 92%) 50%,
+      rgb(165, 56, 56) 100%
+    );
     position: absolute;
     top: 0;
     left: 0;
