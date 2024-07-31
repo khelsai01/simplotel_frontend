@@ -17,11 +17,10 @@
 
 **Tablet view**
 
-![simplotel-frontend-azure vercel app_ (4)](https://github.com/user-attachments/assets/be1ef7a3-df6c-4b26-9857-cbb41e91b236)
+![simplotel-frontend-azure vercel app_ (7)](https://github.com/user-attachments/assets/70f43a32-580d-4836-afd7-6faa31f3979e)
 
+![simplotel-frontend-azure vercel app_ (8)](https://github.com/user-attachments/assets/f9fa5351-2176-4e1b-8043-03f452fc7dc9)
 
-
-![simplotel-frontend-azure vercel app_ (3)](https://github.com/user-attachments/assets/ca4b6a2e-fb52-4dea-86b5-0e3320aa8bd3)
 
 **Mobile view**
 
