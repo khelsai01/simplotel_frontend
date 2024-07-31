@@ -1,4 +1,5 @@
 # simplotel_frontend
+`This is a simplotel food order website that has Top of the navbar with the hover effect and letter spacing. Navbar is responsive as well for medium and small size screen Menu and logo icon visible and onclic on menu button display all navigation menu. And click on close Icon close the navigation menu. Below the navbar some of the content and image will shown with responsive design using flex box properties. Scollar bar also design for scoll.`
 
 ## Deployed link
 
@@ -24,6 +25,13 @@
 
 **Mobile view**
 
-![127 0 0 1_5500_index html](https://github.com/user-attachments/assets/556b7568-6802-445b-9830-26fbfc51009d)
+![simplotel-frontend-azure vercel app_ (5)](https://github.com/user-attachments/assets/6a7a0092-489d-4f5c-9a20-6aa5c0126395)
 
-![127 0 0 1_5500_index html (1)](https://github.com/user-attachments/assets/046b200b-55cb-48e4-b34e-7c6b9392a1cc)
+![simplotel-frontend-azure vercel app_ (6)](https://github.com/user-attachments/assets/32ad2e51-5d52-4cbb-86bd-fb96a0aa4d01)
+
+## Local run the code 
+
+**Clone the reposotary**
+`git clone https://github.com/khelsai01/simplotel_frontend.git`
+
+*Right click on index.html file and open with live server*
